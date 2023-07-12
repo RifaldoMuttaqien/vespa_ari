@@ -1,0 +1,541 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+.logo {
+    width: 50px;
+}
+
+.left-vespa {
+    width: 400px;
+    /*margin-top: 50px;*/
+}
+
+span {
+    color: red;
+}
+
+.span {
+    color: chocolate;
+}
+
+.card-body h1 {
+    color: #000000;
+}
+
+.nav-item a {
+    margin-left: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: #;
+}
+
+.navbar-brand p {
+    margin-top: 10px;
+}
+
+#btn-start {
+    width: 300px;
+    height: 100px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    background: #C3280B;
+    box-shadow: 30px 30px 10px rgba(196, 148, 89, 0.38);
+    border-radius: 90px;
+}
+
+#image {
+    width: 300px;
+    height: 300px;
+    border-radius: 600px;
+    margin-top: 10px;
+}
+
+.card-body1 h1 {
+    text-align: center;
+    color: #000000;
+}
+
+
+/*.card-body2 img {
+	position: absolute;
+	width: 400px;
+	height: 304px;
+
+}
+*/
+
+.card-body3 {}
+
+.card-body3 img {
+    width: 300px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card-body3 h5 {
+    text-align: center;
+}
+
+.card-body3 p {
+    text-align: center;
+}
+
+.card-body4 img {
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card-body4 h5 {
+    text-align: center;
+}
+
+.card-body4 p {
+    text-align: center;
+}
+
+.card-body5 img {
+    width: 300px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card-body5 h5 {
+    text-align: center;
+}
+
+.card-body5 p {
+    text-align: center;
+}
+
+.card-body6 {
+    /*margin-top: 100px;*/
+}
+
+.card-body6 img {
+    width: 300px;
+}
+
+.card-body7 h1 {
+    margin-top: 100px;
+}
+
+.card-body7 p {
+    /*margin-top: 100px;*/
+}
+
+.card-body8 {
+    margin-top: 100px;
+}
+
+.card-body8 h1 {
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.card-body8 h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card-body8 input {
+    width: 400px
+}
+
+.card-body8 textarea {
+    width: 400px;
+}
+
+#send {
+    width: 400px;
+    height: 50px;
+}
+
+
+/*card yang ada di card-body8*/
+
+.card {
+    padding: 5px;
+}
+
+.about {
+    margin-top: 10px;
+}
+
+.card-title8 {
+    text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+    h2 {
+        text-align: center;
+    }
+    textarea {
+        resize: none;
+    }
+    span {
+        color: red;
+    }
+    .left-vespa {
+        width: 400px;
+        margin-left: 300px;
+    }
+    .span {
+        color: chocolate;
+    }
+    .card-body h1 {
+        color: #000000;
+    }
+    .nav-item a {
+        margin-left: 10px;
+        text-decoration: none;
+        list-style: none;
+        color: #;
+    }
+    .navbar-brand p {
+        margin-top: 10px;
+    }
+    #btn-start {
+        width: 300px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        background: #C3280B;
+        box-shadow: 30px 30px 10px rgba(196, 148, 89, 0.38);
+        border-radius: 90px;
+    }
+    #image {
+        width: 300px;
+        height: 300px;
+        border-radius: 600px;
+        margin-top: 10px;
+    }
+    .card-body1 h1 {
+        text-align: center;
+        color: #000000;
+    }
+    /*.card-body2 img {
+		position: absolute;
+		width: 400px;
+		height: 304px;
+
+	}*/
+    .card-body3 {}
+    .card-body3 img {
+        width: 300px;
+        margin-top: 100px;
+    }
+    .card-body3 h5 {
+        text-align: center;
+    }
+    .card-body3 p {
+        text-align: center;
+    }
+    .card-body4 img {
+        width: 300px;
+        height: 400px;
+        margin-top: 100px;
+    }
+    .card-body4 h5 {
+        text-align: center;
+    }
+    .card-body4 p {
+        text-align: center;
+    }
+    .card-body5 img {
+        width: 300px;
+        margin-top: 100px;
+    }
+    .card-body5 h5 {
+        text-align: center;
+    }
+    .card-body5 p {
+        text-align: center;
+    }
+    .card-body6 img {
+        width: 300px;
+    }
+    .card-body7 h1 {
+        margin-top: 100px;
+    }
+    .card-body8 h1 {
+        margin-top: 100px;
+    }
+    .card-body8 h3 {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .card-body8 input {
+        width: 400px
+    }
+    .card-body8 textarea {
+        width: 400px;
+    }
+    /*card yang ada di card-body8*/
+    .card {
+        padding: 5px;
+    }
+    .about {
+        margin-top: 10px;
+    }
+    .card-title8 {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h2 {
+        text-align: center;
+    }
+    textarea {
+        resize: none;
+    }
+    span {
+        color: red;
+    }
+    .left-vespa {
+        width: 400px;
+        margin-left: 300px;
+    }
+    .span {
+        color: chocolate;
+    }
+    .card-body h1 {
+        color: #000000;
+    }
+    .nav-item a {
+        margin-left: 10px;
+        text-decoration: none;
+        list-style: none;
+        color: #;
+    }
+    .navbar-brand p {
+        margin-top: 10px;
+    }
+    #btn-start {
+        width: 300px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 30px;
+        background: #C3280B;
+        box-shadow: 30px 30px 10px rgba(196, 148, 89, 0.38);
+        border-radius: 90px;
+    }
+    #image {
+        width: 300px;
+        height: 300px;
+        border-radius: 600px;
+        margin-top: 10px;
+    }
+    .card-body1 h1 {
+        text-align: center;
+        color: #000000;
+    }
+    /*.card-body2 img {
+		position: absolute;
+		width: 400px;
+		height: 304px;
+
+	}*/
+    .card-body3 {}
+    .card-body3 img {
+        width: 300px;
+        margin-top: 100px;
+    }
+    .card-body3 h5 {
+        text-align: center;
+    }
+    .card-body3 p {
+        text-align: center;
+    }
+    .card-body4 img {
+        width: 300px;
+        height: 400px;
+        margin-top: 100px;
+    }
+    .card-body4 h5 {
+        text-align: center;
+    }
+    .card-body4 p {
+        text-align: center;
+    }
+    .card-body5 img {
+        width: 300px;
+        margin-top: 100px;
+    }
+    .card-body5 h5 {
+        text-align: center;
+    }
+    .card-body5 p {
+        text-align: center;
+    }
+    .card-body6 img {
+        width: 300px;
+    }
+    .card-body7 h1 {
+        margin-top: 100px;
+    }
+    .card-body8 h1 {
+        margin-top: 100px;
+    }
+    .card-body8 h3 {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .card-body8 input {
+        width: 400px
+    }
+    .card-body8 textarea {
+        width: 400px;
+    }
+    /*card yang ada di card-body8*/
+    .card {
+        padding: 5px;
+    }
+    .about {
+        margin-top: 10px;
+    }
+    .card-title8 {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    h2 {
+        text-align: center;
+    }
+    textarea {
+        resize: none;
+    }
+    span {
+        color: red;
+    }
+    .span {
+        color: chocolate;
+    }
+    .card-body h1 {
+        color: #000000;
+    }
+    .nav-item a {
+        margin-left: 10px;
+        text-decoration: none;
+        list-style: none;
+        color: #;
+    }
+    .navbar-brand p {
+        margin-top: 10px;
+    }
+    #btn-start {
+        width: 300px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 30px;
+        background: #C3280B;
+        box-shadow: 30px 30px 10px rgba(196, 148, 89, 0.38);
+        border-radius: 90px;
+    }
+    #image {
+        width: 300px;
+        height: 300px;
+        border-radius: 600px;
+        margin-top: 10px;
+    }
+    .card-body1 h1 {
+        text-align: center;
+        color: #000000;
+    }
+    /*.card-body2 img {
+		position: absolute;
+		width: 400px;
+		height: 304px;
+
+	}*/
+    .card-body3 {}
+    .card-body3 img {
+        width: 300px;
+        margin-top: 100px;
+    }
+    .card-body3 h5 {
+        text-align: center;
+    }
+    .card-body3 p {
+        text-align: center;
+    }
+    .card-body4 img {
+        width: 300px;
+        height: 400px;
+        margin-top: 100px;
+    }
+    .card-body4 h5 {
+        text-align: center;
+    }
+    .card-body4 p {
+        text-align: center;
+    }
+    .card-body5 img {
+        width: 300px;
+        margin-top: 100px;
+    }
+    .card-body5 h5 {
+        text-align: center;
+    }
+    .card-body5 p {
+        text-align: center;
+    }
+    .card-body6 img {
+        width: 300px;
+    }
+    .card-body7 h1 {
+        margin-top: 100px;
+    }
+    .card-body8 h1 {
+        margin-top: 100px;
+    }
+    .card-body8 h3 {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .card-body8 input {
+        width: 400px
+    }
+    .card-body8 textarea {
+        width: 400px;
+    }
+    /*card yang ada di card-body8*/
+    .card {
+        padding: 5px;
+    }
+    .about {
+        margin-top: 10px;
+    }
+    .card-title8 {
+        text-align: center;
+    }
+}
